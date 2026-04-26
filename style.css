@@ -4,6 +4,27 @@
 
 /* <===================CSS VARIABLES===================> */
 
+.home {
+    background-image: url('./resources/IMG_0079.jpg'); /* path to your image */
+    background-size: cover;        /* makes image cover full area */
+    background-position: 50% 30%;   /* centers the image */
+    background-repeat: no-repeat;  /* prevents tiling */
+    min-height: 100vh;             /* full screen height */
+    color: white;                  /* optional: makes text visible */
+}
+.home h1,
+.home h3,
+.home h4,
+.container-in {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.huge-btn {
+    color: white !important;
+    margin-top: 100px; /* increase to 30px / 40px if needed */
+    background-color: #88b2ee !important;
+}
+
 :root{
     --h1-size: 7rem;
     --h2-size: 2.1rem;
